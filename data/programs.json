@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Basics",
+    "image": "../images/web.png",
+    "description": "The Graphic Design program focuses on visual communication and creative problem-solving through the use of typography, imagery, and layout design. Students learn design principles, digital tools, and industry-standard software to create compelling visuals for print and digital media."
+  },
+  {
+    "id": 2,
+    "title": "Graphic Design",
+    "image": "../images/graphic design.png",
+    "description": "Understand data analysis, visualization, and Python basics."
+  },
+  {
+    "id":3,
+    "title":"mobile applications",
+    "image":"../images/mobile applications.jpg",
+    "description":"The Graphic Design program focuses on visual communication and creative problem-solving through the use of typography, imagery, and layout design. Students learn design principles, digital tools, and industry-standard software to create compelling visuals for print and digital media."
+  }
+]

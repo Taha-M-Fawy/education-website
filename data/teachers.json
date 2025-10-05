@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Eng/.Ahmed Mohammed",
+        "image":"../images/Image Teacher2.jpg",
+        "subject": "Computer Science"
+    },
+    {
+        "id":2,
+        "name":"Eng/.Amr Ahmed",
+        "image":"../images/Image Teacher1.jpg",
+        "subject": "Information Technology"
+    },
+    {
+        "id":3,
+        "name":"Eng/.Hamza Salah",
+        "image":"../images/Image Teacher3.jpg",
+        "subject": "Artificial Intelligence"
+    }
+]

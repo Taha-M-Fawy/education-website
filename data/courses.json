@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "HTML & CSS Fundamentals",
+    "description": "Learn the basics of web design with HTML and CSS, and start creating your own responsive pages.",
+    "teacher": "Eng. Sara Mahmoud",
+    "imageTeacher":"../images/Image Teacher4.jpg",
+    "image": "../images/HTML & CSS Fundamentals.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript for Beginners",
+    "description": "Master the core JavaScript concepts and bring your websites to life with interactivity and logic.",
+    "teacher": "Eng. Ahmed Nasser",
+    "imageTeacher":"../images/Image Teacher2.jpg",
+    "image": "../images/JavaScript for Beginners.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Responsive Web Design",
+    "description": "Design modern websites that look great on all devices using advanced CSS techniques and Flexbox/Grid.",
+    "teacher": "Eng. Mona Fathy",
+    "imageTeacher":"../images/Image Teacher5.jpg",
+    "image": "../images/Responsive Web Design.jpg"
+  },
+  {
+    "id": 4,
+    "title": "React.js Crash Course",
+    "description": "Build powerful single-page applications using React and component-based architecture.",
+    "teacher": "Eng. Karim Youssef",
+    "imageTeacher":"../images/Image Teacher3.jpg",
+    "image": "../images/React.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Python Programming",
+    "description": "Start coding in Python and learn problem-solving, data handling, and object-oriented programming.",
+    "teacher": "Eng. Yara Adel",
+    "imageTeacher":"../images/Image Teacher5.jpg",
+    "image": "../images/Python.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Database Management with SQL",
+    "description": "Learn how to design, query, and manage relational databases using SQL effectively.",
+    "teacher": "Dr. Mahmoud Alaa",
+    "imageTeacher":"../images/Image Teacher1.jpg",
+    "image": "../images/Database .webp"
+  },
+  {
+    "id": 7,
+    "title": "Artificial Intelligence Basics",
+    "description": "Understand the foundations of AI, machine learning, and how intelligent systems are built.",
+    "teacher": "Dr. Hossam Khaled",
+    "imageTeacher":"../images/Image Teacher2.jpg",
+    "image": "../images/Artificial Intelligence.webp"
+  },
+  {
+    "id": 8,
+    "title": "Cloud Computing Essentials",
+    "description": "Explore the basics of cloud services, deployment models, and how cloud computing powers the web.",
+    "teacher": "Eng. Rana Tarek",
+    "imageTeacher":"../images/Image Teacher4.jpg",
+    "image": "../images/Cloud Computing Essentials.avif"
+  },
+  {
+    "id": 9,
+    "title": "Cyber Security Fundamentals",
+    "description": "Learn how to protect systems and data, and understand the principles of ethical hacking.",
+    "teacher": "Eng. Mostafa Saad",
+    "imageTeacher":"../images/Image Teacher3.jpg",
+    "image": "../images/Cyber Security Fundamentals.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Version Control with Git & GitHub",
+    "description": "Manage your projects efficiently with Git commands and collaborate using GitHub repositories.",
+    "teacher": "Eng. Eman Hassan",
+    "imageTeacher":"../images/Image Teacher5.jpg",
+    "image": "../images/Version Control with Git & GitHub.jpg"
+  }
+]
