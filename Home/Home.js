@@ -1,11 +1,11 @@
 async function getDataPrograms(){
   const res = await fetch("../data/programs.json");
   const data = await res.json();
-
+  const firstThrieCard=data.slice(0, 3);
   const Programs = document.querySelector(".Programs-container");
   let content = "";
 
-  data.forEach(element => {
+  firstThrieCard.forEach(element => {
     content += `
       <div class="col-3 card" >
         <img src="${element.image}" alt="">

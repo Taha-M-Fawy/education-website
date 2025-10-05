@@ -1,20 +1,65 @@
 [
-    {
-        "id":1,
-        "name":"Eng/.Ahmed Mohammed",
-        "image":"../images/Image Teacher2.jpg",
-        "subject": "Computer Science"
-    },
-    {
-        "id":2,
-        "name":"Eng/.Amr Ahmed",
-        "image":"../images/Image Teacher1.jpg",
-        "subject": "Information Technology"
-    },
-    {
-        "id":3,
-        "name":"Eng/.Hamza Salah",
-        "image":"../images/Image Teacher3.jpg",
-        "subject": "Artificial Intelligence"
-    }
+  {
+    "id": 1,
+    "name": "Dr. Ahmed Mostafa",
+    "specialization": "Computer Science",
+    "description": "A passionate computer scientist with over 10 years of experience in teaching algorithms and data structures. He focuses on simplifying complex topics to make them easier for students to understand.",
+    "image": "../images/Image Teacher2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Eng. Sara Hassan",
+    "specialization": "Web Development",
+    "description": "Front-end developer and instructor who loves helping students create modern, responsive websites using HTML, CSS, and JavaScript.",
+    "image": "../images/Image Teacher4.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Mohamed Fathy",
+    "specialization": "Artificial Intelligence",
+    "description": "AI researcher specialized in deep learning and neural networks. His lessons are filled with practical examples and real-world case studies.",
+    "image": "../images/Image Teacher3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Eng. Yara Adel",
+    "specialization": "Cybersecurity",
+    "description": "Cybersecurity expert with years of experience in ethical hacking and network defense. Her mission is to make online environments safer for everyone.",
+    "image": "../images/Image Teacher5.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Prof. Omar Tarek",
+    "specialization": "Data Science",
+    "description": "Data scientist who combines mathematics and programming to extract valuable insights from big data using Python and modern tools.",
+    "image": "../images/Image Teacher1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Eng. Layla Mahmoud",
+    "specialization": "Mobile Development",
+    "description": "Full-stack mobile developer teaching Android and iOS development. She enjoys mentoring students to build real-world apps from scratch.",
+    "image": "../images/Image Teacher4.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Eng. Karim Nabil",
+    "specialization": "Cloud Computing",
+    "description": "AWS certified cloud engineer who helps students understand cloud infrastructure and deployment of scalable web applications.",
+    "image": "../images/Image Teacher2.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Nour El-Din",
+    "specialization": "Networking",
+    "description": "Networking instructor with vast experience in Cisco-based systems and routing technologies. He loves simplifying technical networking concepts.",
+    "image": "../images/Image Teacher3.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Eng. Mariam Saad",
+    "specialization": "UI/UX Design",
+    "description": "Creative designer focusing on user-centered interfaces. She teaches design thinking and how to build products people love to use.",
+    "image": "../images/Image Teacher5.jpg"
+  }
 ]

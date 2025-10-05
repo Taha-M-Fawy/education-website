@@ -1,20 +1,56 @@
 [
   {
     "id": 1,
-    "title": "Web Development Basics",
-    "image": "../images/web.png",
-    "description": "The Graphic Design program focuses on visual communication and creative problem-solving through the use of typography, imagery, and layout design. Students learn design principles, digital tools, and industry-standard software to create compelling visuals for print and digital media."
+    "title": "Mobile App Development",
+    "description": "Learn how to design, build, and publish mobile apps for Android and iOS. Understand UI design principles and responsive layouts. Explore frameworks like Flutter and React Native for cross-platform development.",
+    "image": "../images/mobile applications.jpg"
   },
   {
     "id": 2,
-    "title": "Graphic Design",
-    "image": "../images/graphic design.png",
-    "description": "Understand data analysis, visualization, and Python basics."
+    "title": "Web Development Bootcamp",
+    "description": "Start from scratch and master front-end technologies like HTML, CSS, and JavaScript. Build responsive and dynamic websites with frameworks like Bootstrap. Gain hands-on experience in creating real-world projects for the web.",
+    "image": "../images/web.png"
   },
   {
-    "id":3,
-    "title":"mobile applications",
-    "image":"../images/mobile applications.jpg",
-    "description":"The Graphic Design program focuses on visual communication and creative problem-solving through the use of typography, imagery, and layout design. Students learn design principles, digital tools, and industry-standard software to create compelling visuals for print and digital media."
+    "id": 3,
+    "title": "Artificial Intelligence Basics",
+    "description": "Get introduced to the exciting field of AI and machine learning. Understand how algorithms can make decisions and learn from data. Explore neural networks, data analysis, and practical AI applications in daily life.",
+    "image": "../images/Artificial Intelligence.webp"
+  },
+  {
+    "id": 4,
+    "title": "Computer Science Fundamentals",
+    "description": "Dive into the world of computing and understand how software and hardware interact. Learn the logic behind algorithms, data structures, and programming basics. Develop problem-solving skills essential for every software engineer.",
+    "image": "../images/Computer Science .jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Essentials",
+    "description": "Learn how to protect systems, networks, and users from cyber threats. Understand common attack types, encryption, and ethical hacking basics. Develop skills to keep personal and organizational data safe online.",
+    "image": "../images/Cyber Security Fundamentals.jpg"
+  },
+  {
+    "id":6,
+    "title": "Data Science & Analytics",
+    "description": "Discover how to collect, clean, and analyze data to make smart decisions. Learn Python, Excel, and data visualization tools like Power BI. Turn raw data into meaningful insights through real-world datasets.",
+    "image": "../images/Data Science.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Cloud Computing",
+    "description": "Understand how cloud platforms like AWS, Azure, and Google Cloud work. Learn about storage, deployment, and virtualization. Gain the skills needed to deploy modern scalable applications in the cloud.",
+    "image": "../images/Cloud Computing Essentials.avif"
+  },
+  {
+    "id": 8,
+    "title": "UI/UX Design",
+    "description": "Explore the process of designing user-friendly and attractive interfaces. Learn about color theory, typography, and layout design. Understand how user research and wireframing lead to effective digital experiences.",
+    "image": "../images/UIUX Design.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Networking Fundamentals",
+    "description": "Build a strong foundation in computer networking concepts. Learn how devices communicate, how data travels, and how to configure routers and switches. Practice with Cisco tools and real-world network simulations.",
+    "image": "../images/Networking Fundamentals.avif"
   }
 ]
