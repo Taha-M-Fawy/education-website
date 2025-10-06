@@ -1,65 +1,71 @@
-[
-  {
-    "id": 1,
-    "name": "Dr. Ahmed Mostafa",
-    "specialization": "Computer Science",
-    "description": "A passionate computer scientist with over 10 years of experience in teaching algorithms and data structures. He focuses on simplifying complex topics to make them easier for students to understand.",
-    "image": "../images/Image Teacher2.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Eng. Sara Hassan",
-    "specialization": "Web Development",
-    "description": "Front-end developer and instructor who loves helping students create modern, responsive websites using HTML, CSS, and JavaScript.",
-    "image": "../images/Image Teacher4.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Dr. Mohamed Fathy",
-    "specialization": "Artificial Intelligence",
-    "description": "AI researcher specialized in deep learning and neural networks. His lessons are filled with practical examples and real-world case studies.",
-    "image": "../images/Image Teacher3.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Eng. Yara Adel",
-    "specialization": "Cybersecurity",
-    "description": "Cybersecurity expert with years of experience in ethical hacking and network defense. Her mission is to make online environments safer for everyone.",
-    "image": "../images/Image Teacher5.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Prof. Omar Tarek",
-    "specialization": "Data Science",
-    "description": "Data scientist who combines mathematics and programming to extract valuable insights from big data using Python and modern tools.",
-    "image": "../images/Image Teacher1.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Eng. Layla Mahmoud",
-    "specialization": "Mobile Development",
-    "description": "Full-stack mobile developer teaching Android and iOS development. She enjoys mentoring students to build real-world apps from scratch.",
-    "image": "../images/Image Teacher4.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Eng. Karim Nabil",
-    "specialization": "Cloud Computing",
-    "description": "AWS certified cloud engineer who helps students understand cloud infrastructure and deployment of scalable web applications.",
-    "image": "../images/Image Teacher2.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Dr. Nour El-Din",
-    "specialization": "Networking",
-    "description": "Networking instructor with vast experience in Cisco-based systems and routing technologies. He loves simplifying technical networking concepts.",
-    "image": "../images/Image Teacher3.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Eng. Mariam Saad",
-    "specialization": "UI/UX Design",
-    "description": "Creative designer focusing on user-centered interfaces. She teaches design thinking and how to build products people love to use.",
-    "image": "../images/Image Teacher5.jpg"
-  }
-]
+{
+  "web_program": [
+    {
+      "id": 1,
+      "name": "Eng. Michael Smith",
+      "specialization": "Web Design and Development",
+      "description": "Web developer with a Bachelor's degree in Web Design and Development. Expert in HTML, CSS, and JavaScript with a passion for creating responsive designs.",
+      "image": "../images/Image Teacher1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Eng. Mike Wazioski",
+      "specialization": "Web Design and Development",
+      "description": "Front-end engineer skilled in JavaScript frameworks and modern web design techniques. Helps students build interactive websites from scratch.",
+      "image": "../images/Image Teacher2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Eng. Emma Smith",
+      "specialization": "Web Design and Development",
+      "description": "Creative front-end developer specializing in UX/UI design and accessibility-focused layouts.",
+      "image": "../images/Image Teacher3.jpg"
+    }
+  ],
+  "graphic_design_program": [
+    {
+      "id": 4,
+      "name": "Eng. Lea Weng La",
+      "specialization": "Graphic Design",
+      "description": "Expert in digital design, Adobe tools, and branding. Helps students master color theory and creative composition.",
+      "image": "../images/Image Teacher4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Eng. Mike Wazioski",
+      "specialization": "Graphic Design",
+      "description": "Specialist in motion graphics and visual identity creation. Encourages creativity through real-world projects.",
+      "image": "../images/Image Teacher2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Eng. Ema Smith",
+      "specialization": "Graphic Design",
+      "description": "Graphic artist with years of experience in print and digital design. Passionate about minimalist layouts.",
+      "image": "../images/Image Teacher5.jpg"
+    }
+  ],
+  "mobile_applications_program": [
+    {
+      "id": 7,
+      "name": "Eng. Lea Weng La",
+      "specialization": "Mobile Development",
+      "description": "Mobile app developer teaching Android and iOS development using modern frameworks.",
+      "image": "../images/Image Teacher4.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Eng. Mike Wazioski",
+      "specialization": "Mobile Development",
+      "description": "Experienced full-stack developer focused on cross-platform mobile solutions.",
+      "image": "../images/Image Teacher2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Eng. Ema Smith",
+      "specialization": "Mobile Development",
+      "description": "Mentor for mobile development projects, focusing on Flutter and React Native frameworks.",
+      "image": "../images/Image Teacher3.jpg"
+    }
+  ]
+}
