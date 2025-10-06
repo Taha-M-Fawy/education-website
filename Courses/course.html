@@ -11,94 +11,151 @@
 </head>
 <body>
      <!-- start Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white  ">
-            <div class="container d-flex justify-content-between align-items-center ">
+<nav class="navbar navbar-expand-lg bg-white  ">
+        <div class="container d-flex justify-content-between align-items-center ">
+            
+            <div class="navbar-brand d-flex align-items-center m-0 p-0">
+                <i class="fa-solid fa-pen text-warning fs-3 me-2"></i>
+                <span class="fw-bold fs-4">EduSite</span>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse  justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Programs/Program.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./course.html">Courses</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="../Teachers/Teacher.html"> Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../About Us/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../Contact/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
                 
-                <div class="navbar-brand d-flex align-items-center m-0 p-0">
-                    <i class="fa-solid fa-pen text-warning fs-3 me-2"></i>
-                    <span class="fw-bold fs-4">EduSite</span>
-                </div>
+            <div class="d-none d-lg-block b"> 
+                <i class="fa-solid fa-phone-volume call-icon"></i>
+            </div>
+        </div>
+</nav>
+<!-- End Navbar -->  
+    <section class="hero-section text-center">
+        <img src="../images/Navbar.png" alt="">
+        <h2 class="hero-content ">Courses </h2>  
+    </section>
+    <section class="container Graphic">
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="../images/graphic design.png" alt="">
+            </div>
+            <div class="col-lg-7">
+                <h2>Graphic Design Program:</h2>
+                <p><span>Description:</span>The Graphic Design program
+                    focuses on visual communication and creative
+                    problem-solving through the use of typography,
+                    imagery, and layout design. Students learn 
+                    design principles, digital tools, and industry
+                    -standard software to create compelling visuals
+                    for print and digital media.</p>
+            </div>
+        </div>
+    </section>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+    <hr class="custom-line">
+
+    <h1 class="text-center">Courses</h1>
+
+    <section >
+        <div class="courses-container">
+
+        </div>
+        <div class="view-all-container">
+            <button id="view-all-btn">View All</button>
+        </div>
+    </section>
+
     
-                <div class=" collapse navbar-collapse  justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav gap-4 mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Programs/Program.html">Programs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./course.html">Courses</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="../Teachers/Teacher.html"> Teachers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="../About Us/about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="../Contact/contact.html">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                    
-                <div class="d-none d-lg-block b"> 
-                    <i class="fa-solid fa-phone-volume call-icon"></i>
-                </div>
+    <section class="container my-5">
+        
+        <h2 class="fw-bold text-capitalize mb-4 position-relative d-inline-block">Requirements</h2>
+        <div class="border border-dark rounded-2 overflow-hidden">
+
+            <div class="d-flex align-items-center p-3 border-bottom">
+            <i class="fa-solid fa-file-lines fs-3 text-warning me-3"></i>
+            <h3 class="fs-5 fw-semibold mb-0">High school diploma or equivalent.</h3>
             </div>
-    </nav>
-    <!-- End Navbar -->    
-         <!-- Start Footer -->
-    <footer class="footer">
-            <div class="container">
-                <div class="footer-row">
-                <div class="footer-col">
-                    <h3 class="footer-logo">Educational Institution</h3>
-                    <p>Empowering learners with quality online courses and expert teachers.</p>
-                </div>
 
-                <div class="footer-col">
-                    <h4>Programs</h4>
-                    <ul>
-                    <li><a href="#">Computer Science</a></li>
-                    <li><a href="#">Data Analysis</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Artificial Intelligence</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Help</h4>
-                    <ul>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul>
-                    <li><a href="../About Us/about.html">About Us</a></li>
-                    <li><a href="../Courses/course.html">Courses</a></li>
-                    <li><a href="../Programs/Program.html">Programs</a></li>
-                    <li><a href="../Teachers/Teacher.html">Our Teachers</a></li>
-                    <li><a href="../Contact/contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                </div>
-
-                <div class="footer-bottom">
-                <p>© 2025 Educational Institution. All rights reserved.</p>
-                </div>
+            <div class="d-flex align-items-center p-3 border-bottom">
+            <i class="fa-solid fa-computer fs-3 text-warning me-3"></i>
+            <h3 class="fs-5 fw-semibold mb-0">Basic computer skills and familiarity with internet usage.</h3>
             </div>
-    </footer>
-    <!-- End Footer -->
+
+            <div class="d-flex align-items-center p-3">
+            <i class="fa-solid fa-laptop fs-3 text-warning me-3"></i>
+            <h3 class="fs-5 fw-semibold mb-0">You have laptop</h3>
+            </div>
+    </div>
+    </section>
+<!-- Start Footer -->
+<footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+            <div class="footer-col">
+                <h3 class="footer-logo">Educational Institution</h3>
+                <p>Empowering learners with quality online courses and expert teachers.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Data Analysis</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Artificial Intelligence</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                <li><a href="../About Us/about.html">About Us</a></li>
+                <li><a href="../Courses/course.html">Courses</a></li>
+                <li><a href="../Programs/Program.html">Programs</a></li>
+                <li><a href="../Teachers/Teacher.html">Our Teachers</a></li>
+                <li><a href="../Contact/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="footer-bottom">
+            <p>© 2025 Educational Institution. All rights reserved.</p>
+            </div>
+        </div>
+</footer>
+<!-- End Footer -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/all.min.js"></script>
     <script src="./course.js"></script>

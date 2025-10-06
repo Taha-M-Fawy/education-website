@@ -78,5 +78,21 @@
     "teacher": "Eng. Eman Hassan",
     "imageTeacher":"../images/Image Teacher5.jpg",
     "image": "../images/Version Control with Git & GitHub.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Python Programming",
+    "description": "Start coding in Python and learn problem-solving, data handling, and object-oriented programming.",
+    "teacher": "Eng. Yara Adel",
+    "imageTeacher":"../images/Image Teacher5.jpg",
+    "image": "../images/Python.jpg"
+  },
+  {
+    "id": 12,
+    "title": "JavaScript for Beginners",
+    "description": "Master the core JavaScript concepts and bring your websites to life with interactivity and logic.",
+    "teacher": "Eng. Ahmed Nasser",
+    "imageTeacher":"../images/Image Teacher2.jpg",
+    "image": "../images/JavaScript for Beginners.jpg"
   }
 ]

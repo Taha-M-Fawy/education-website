@@ -1,0 +1,148 @@
+.hero-section {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+  z-index: 100;
+  margin-bottom: 50px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+}
+.hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #F2AF03;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Graphic img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.Graphic h2 {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 70px;
+    color: #F2AF03;
+}
+
+.Graphic p {
+    margin-top: 30px;
+    color: #000000;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.custom-line {
+    height: 2px;
+    background-color: #F2AF03;
+    border-radius: 5px; 
+    margin: 50px 0;
+}
+.card  {
+  background-color: #605e5e;
+  flex: 1 1 calc(33% - 20px); 
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+.card img  {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.courses-container .imageTeacher {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 15px;
+  border: 2px solid #F2AF03;
+   object-fit: cover;
+}
+.card h2 {
+  color: #F2AF03;
+  font-size: 1.3rem;
+  margin: 15px 0 10px;
+}
+.card p {
+  color: #ddd;
+  font-size: 0.95rem;
+  padding: 0 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.card .teacher {
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  padding: 5px 0;
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.card h3 {
+  color: #000;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.view-all-container {
+    text-align: center;
+  margin-top: 20px;
+}
+
+#view-all-btn {
+  background-color: #666565;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  margin: 50px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#view-all-btn:hover {
+  background-color: #858484;
+}
+  /* ===== Responsive ===== */
+  @media (max-width: 992px) {
+    .card {
+      flex: 1 1 calc(45% - 20px);
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-top: 15px;
+      flex: 1 1 90%;
+      margin-left: 0;
+    }
+    #view-all-btn {
+        margin-top: 10px ;
+    }
+  }
+  
