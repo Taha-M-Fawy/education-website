@@ -1,27 +1,28 @@
 nav {
- position: absolute;
+  position: sticky !important;
   top: 0;
   left: 0;
   background: transparent;
   width: 100%;
-  z-index: 10;
   border-radius: 0;
- 
+  z-index: 1000 ;
 }
 .navbar-brand i {
     color: #F2AF03;
 }
 
-.call-icon {
+.icon-box {
   background-color: #F2AF03;
-  color: #fff;
   padding: 10px 30px;
   font-size: 1.6rem;
-  border-radius:  6px 0 0 6px ;
+  border-radius: 6px 0 0 6px;
   transition: 0.3s;
+  color: #000;
 }
-.call-icon:hover {
-  background-color: #d99a02;
+.icon-box:hover {
+  background-color: #fff;
+  color: #F2AF03;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .nav-link {
@@ -95,5 +96,3 @@ nav {
     text-align: center;
   }
 }
-
-

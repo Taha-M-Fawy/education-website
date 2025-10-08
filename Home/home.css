@@ -123,7 +123,7 @@
 }
 .card img ,.image {
   height: 300px;
-  object-fit: cover;
+  width: 100%;
   border-radius: 10px 10px 0 0;
 }
 .Programs-container h2{
