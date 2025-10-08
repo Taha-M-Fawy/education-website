@@ -6,11 +6,12 @@ nav {
   width: 100%;
   z-index: 10;
   border-radius: 0;
-  padding: 15px 0;
+ 
 }
 .navbar-brand i {
     color: #F2AF03;
 }
+
 .call-icon {
   background-color: #F2AF03;
   color: #fff;
@@ -27,7 +28,10 @@ nav {
   color: #000 !important;
   transition: 0.3s;
 }
-
+.active {
+  border-bottom: 3px solid #d99a02;
+  color: #d99a02 !important;
+}
 .nav-link:hover {
   color: #F2AF03 !important;
 }

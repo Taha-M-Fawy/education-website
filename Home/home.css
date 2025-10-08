@@ -13,6 +13,7 @@
   position: absolute;
   top: 30%;
   left: 50%;
+  width: 90%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -24,7 +25,7 @@
   top: 55%;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  max-width: 90%;
 }
 
 .black-box {
@@ -43,25 +44,23 @@
   background-color: #222;
   transform: scale(1.05);
 }
+
+
 @media (max-width: 768px) {
   .hero-content {
     font-size: 1.4rem;
-    top: 15%;
+    top: 35%;
+    color: #F2AF03;
   }
   .programs {
-    top: 30%;
-    left: 48%;
+    display: none;
+    
   }
   .black-box {
     width: 100%;
+    padding: 20px 5px;
   }
 }
-.hero-content {
-    font-size: 1.8rem;
-    margin-top: 20px;
-    font-weight: 600;
-} 
-
 .about-section {
   background-color: #F2AF03;
   color: #000;
