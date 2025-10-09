@@ -2,6 +2,7 @@ nav {
   position: sticky !important;
   top: 0;
   left: 0;
+  padding: 0 !important;
   background: transparent;
   width: 100%;
   border-radius: 0;
@@ -13,8 +14,9 @@ nav {
 
 .icon-box {
   background-color: #F2AF03;
-  padding: 10px 30px;
+  padding: 13px 30px;
   font-size: 1.6rem;
+  margin-bottom:-2px ;
   border-radius: 6px 0 0 6px;
   transition: 0.3s;
   color: #000;
@@ -27,11 +29,20 @@ nav {
 
 .nav-link {
   color: #000 !important;
+  transition: color 0.3s ease;
+  position: relative;
   transition: 0.3s;
 }
-.active {
-  border-bottom: 3px solid #d99a02;
-  color: #d99a02 !important;
+ .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #d99a02;
+  transition: width 0.3s ease;
 }
 .nav-link:hover {
   color: #F2AF03 !important;
@@ -94,5 +105,8 @@ nav {
   .footer-row {
     flex-direction: column;
     text-align: center;
+  }
+  nav {
+    padding: 5px 0 !important;
   }
 }

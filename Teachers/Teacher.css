@@ -35,11 +35,6 @@
   color:#F2AF03;
   text-transform: capitalize;
 }
-@media (max-width: 768px) {
-  .hero-section {
-    margin-bottom: -50px ;
-  }
-}
 
 .row {
   display: flex;
@@ -53,7 +48,7 @@
   border-radius: 15px;
   padding: 20px;
   text-align: center;
-  width: 400px;
+  
   transition: all 0.3s ease;
 }
 
@@ -101,6 +96,42 @@
 .card button:hover {
   background-color: #F2AF03;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    height: 35vh;
+  }
+
+  .hero-content {
+    font-size: 1.5rem;
+    padding: 8px 15px;
+  }
+
+  .Teachers {
+    padding: 30px 10px;
+  }
+
+  .Teachers h1 {
+    font-size: 22px;
+    margin: 30px 0 20px;
+  }
+
+  .card {
+    width: 97%;
+    padding: 15px;
+  }
+
+  .imageTeacher {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card button {
+    width: 70%;
+    font-size: 14px;
+  }
 }
 
 
