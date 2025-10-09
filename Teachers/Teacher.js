@@ -9,7 +9,7 @@ async function GetDataTeachers() {
       if (section) {
         data[programKey].forEach(teacher => {
           section.innerHTML += `
-            <div class="card">
+            <div class="card col-lg-4 ">
               <img class="imageTeacher" src="${teacher.image}" alt="${teacher.name}">
               <h2>${teacher.name}</h2>
               <p>${teacher.description}<br><strong>${teacher.specialization}</strong></p>
